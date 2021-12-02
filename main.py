@@ -82,9 +82,7 @@ if __name__ == '__main__':
         #     get_request(ret[0])
         #     break
         
-        if(len(ret) > 0):
-            with open("qr.csv", "a") as f:
-                f.write(ret[0] + "\n")
+        
 
     capture.release()
     cv2.destroyAllWindows()
